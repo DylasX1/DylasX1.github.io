@@ -1,0 +1,159 @@
+html{
+  overflow-x: hidden;
+}
+
+body {
+  overflow: hidden;
+}
+
+
+/* Preloader */
+
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 500px;
+  height: 500px;
+  position: absolute;
+  left: 45%;
+  /* centers the loading animation horizontally one the screen */
+  top: 30%;
+  /* centers the loading animation vertically one the screen */
+  background-image: url(https://mir-s3-cdn-cf.behance.net/project_modules/disp/48c99328741557.55cfd3c8be389.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: -100px 0 0 -100px;
+  /* is width and height divided by two */
+}
+    .formacion  {
+      font-family:Roboto;
+      font-weight: 200;
+    }
+   .input-field label {
+     color: #000;
+   }
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field input[type=text].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field input[type=text].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field .prefix.active {
+     color: #000;
+   }
+
+   .input-field input[type=email]:focus + label {
+     color: #000;
+   }
+   .input-field input[type=email]:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field input[type=email].valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field input[type=email].invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+
+   .input-field textarea:focus + label {
+     color: #000;
+   }
+   .input-field  textarea:focus {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field textarea.valid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+   .input-field textarea.invalid {
+     border-bottom: 1px solid #000;
+     box-shadow: 0 1px 0 0 #000;
+   }
+
+   .formacion a {
+      color: #0d47a1 !important ;
+      font-size: 27px;
+   }
+
+
+.card{
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.activator{
+  min-width: 200px;
+  max-width: 300px;
+}
+
+.social {
+	position: fixed; /* Hacemos que la posición en pantalla sea fija para que siempre se muestre en pantalla*/
+	left: 0; /* Establecemos la barra en la izquierda */
+	top: 400px; /* Bajamos la barra 200px de arriba a abajo */
+	z-index: 2000; /* Utilizamos la propiedad z-index para que no se superponga algún otro elemento como sliders, galerías, etc */
+}
+
+	.social ul {
+		list-style: none;
+	}
+
+	.social ul li a {
+		display: inline-block;
+		color:#fff;
+		background: #000;
+		padding: 10px 30px;
+		text-decoration: none;
+		-webkit-transition:all 500ms ease;
+		-o-transition:all 500ms ease;
+		transition:all 500ms ease; /* Establecemos una transición a todas las propiedades */
+	}
+
+	.social ul li .icon-facebook {background:#3b5998;} /* Establecemos los colores de cada red social, aprovechando su class */
+	.social ul li .icon-twitter {background: #00abf0;}
+	.social ul li .icon-googleplus {background: #d95232;}
+	.social ul li .icon-pinterest {background: #ae181f;}
+	.social ul li .icon-mail {background: #666666;}
+
+	.social ul li a:hover {
+		background: #000; /* Cambiamos el fondo cuando el usuario pase el mouse */
+		padding: 10px 60px; /* Hacemos mas grande el espacio cuando el usuario pase el mouse */
+	}
+
+  .footerlogo{
+    min-width: 300px;
+    max-width: 300px;
+
+  }
+
+  .contenedorc{
+      width: 80%;
+      margin-left: 10%;
+  }
+
+  /* HTML5 display-role reset for older browsers */
+  body {line-height: 1;}

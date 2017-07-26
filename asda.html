@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+      <!-- Compiled and minified CSS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/css/materialize.min.css">
+      <link rel="stylesheet" href="style.css">
+      <!-- Compiled and minified JavaScript -->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.0/js/materialize.min.js"></script>
+    <title></title>
+  </head>
+  <body>
+    <div class="navbar-fixed">
+      <nav class="default_color">
+        <div class="nav-wrapper">
+      
+          <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+          <ul class="right hide-on-med-and-down">
+            <li><a href="#emprendimiento ">Investigación</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+          </ul>
+          <ul class="side-nav" id="mobile-demo">
+            <li><a href="#emprendimiento">Investigación</a></li>
+            <li><a href="#formacion">Formación</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+    <div class="container">
+      <div class="carousel carousel-slider">
+        <a class="carousel-item" href="#one!"><img src="assets/images/curso5.jpg" width="350px"></a>
+        <a class="carousel-item" href="#two!"><img src="https://lorempixel.com/800/400/food/2"></a>
+        <a class="carousel-item" href="#three!"><img src="https://lorempixel.com/800/400/food/3"></a>
+        <a class="carousel-item" href="#four!"><img src="https://lorempixel.com/800/400/food/4"></a>
+      </div>
+
+    </div>
+
+
+
+        <script type="text/javascript">
+            $(document).ready(function(){
+              console.log("asd");
+              $('.carousel.carousel-slider').carousel({fullWidth: true});
+            });
+        </script>
+  </body>
+</html>
